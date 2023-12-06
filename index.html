@@ -2,11 +2,102 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Lab # 1</title>
+    <link rel="stylesheet" href="css/index.css">
+    <title>ABOUT ME</title>
 </head>
 <body>
-    
+    <script>
+        const targetDiv = document.getElementById("menu");
+        const btn = document.getElementById("toggle");
+        btn.onclick = function () {
+            if (targetDiv.style.display !== "none") {
+                targetDiv.style.display = "none";
+            } else {
+                targetDiv.style.display = "block";
+            }
+        }   
+    </script>
+    <div class="outer-wrapper">
+        <div class="wrapper">
+            <section class="slide three">
+                <div class="buttonContainer">
+                    <h3 id="top">SCROLL</h3>
+                </div>
+                <div></div>
+            </section>
+            <section class="slide four">
+                <div class="hugetextContainer">
+                    <h1>OLENA</h1>
+                    <h3>BONDARENKO</h3>
+                </div>
+                <div class="buttonContainer">
+                    <h3>WEB-LABA</h3>
+                </div>
+                <article>
+                    <p>Hi, I am computer science student. My hobbies are reading and drawing. I also enjoy spending time with my team and friends, which is honestly the same thing)</p>
+                </article>
+            </section>
+            <section class="slide two">
+                <div class="hugetextContainer"></div>
+                <div class="buttonContainer">
+                    <h3>MENU</h3>
+                </div>
+                <div class="otherContainer">
+                    <nav>
+                        <a href="site.html">SITE</a>
+                        <a href="news.html">NEWS</a>
+                    </nav>
+                </div>
+            </section>
+            <section class="slide one">
+                <marquee>
+                    <h1>TEXT   TEXT   TEXT   TEXT</h1>
+                </marquee>
+            </section>
+            <section class="slide three">
+                <img src="pic/giphy.gif" onmouseover="this.src='pic/sparkle-space.gif'" onmouseout="this.src='pic/giphy.gif'">
+            </section>
+            <section class="slide one">
+                <marquee>
+                    <h1>TEXT   TEXT   TEXT   TEXT</h1>
+                </marquee>
+            </section>
+            <section class="slide five">
+                <div class="hugetextContainer">
+                    <h1>FACTS</h1>
+                    <h3><nobr>ABOUT ME</nobr></h3>
+                </div>
+                <article>
+                    <dl>
+                        <dt><h1>001</h1></dt>
+                        <dd><p>I have two pet rats. Theirs names are Larysa and sir Hiss. I love them very much)</p></dd>
+                    </dl>                   
+                </article>
+            </section>
+            <section class="slide two">
+                <div class="hugetextContainer"></div>
+                <div></div>
+            </section>
+            <section class="slide four">
+                <dl>
+                    <dt><h1>002</h1></dt>
+                    <dd><p>I finished both music school and art school. So now I can play bandura and drow vases</p></dd>
+                </dl>
+            </section>
+            <section class="slide two">
+                <div class="hugetextContainer"></div>
+                <div class="buttonContainer">
+                    <a href="#top">START</a>
+                </div>
+                <div></div>
+            </section>
+            <section class="slide one">
+                <marquee>
+                    <h1>TEXT   TEXT   TEXT   TEXT</h1>
+                </marquee>
+            </section>
+        </div>
+    </div>
 </body>
 </html>

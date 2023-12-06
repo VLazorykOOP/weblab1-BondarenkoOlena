@@ -1,0 +1,91 @@
+.slide{
+    min-height: 100vh;
+}
+.one{
+    width: 150px;
+}
+.two{
+    width: 300px;
+}
+.three{
+    width: 450px;
+}
+.four{
+    width: 600px;
+}
+.five{
+    width: 750px;
+}
+
+.hugetextContainer{
+    min-height: 40vh;
+}
+.buttonContainer{
+    min-height: 10vh;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 4200px;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+}
+.outer-wrapper{
+    width: 100vh;
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 8em;
+    margin: 0;
+    padding: 0;
+}
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4em;
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+}
+a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4em;
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-decoration: none;
+}
+
+marquee{
+    transform: rotate(90deg) translateY(40vh) translateX(40vh);
+    width: 100vh;
+}
+
+img{
+    min-height: 100vh;
+    width: 450px;
+}
+
+dd{
+    margin-left: 100px;
+}
+a:hover{
+    color: #AA00FF;
+}
